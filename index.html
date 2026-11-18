@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farooq Anwar</title>
+<meta name="description" content="Farooq Anwar: CS and AI student at Kennesaw State. Portfolio, research, and contact links.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #dde5d3;
+    --ink: #1c2b21;
+    --muted: #4d5f52;
+    --card: #f1f5ea;
+    --line: #a9b99f;
+    --accent: #b9761f;
+    --hex: rgba(28,43,33,.07);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17221b;
+      --ink: #e6eddc;
+      --muted: #a3b3a5;
+      --card: #213128;
+      --line: #36493c;
+      --accent: #e0a043;
+      --hex: rgba(230,237,220,.06);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    color: var(--ink);
+    font-family: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", sans-serif;
+    background-color: var(--bg);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cg fill='none' stroke='%23808f7c' stroke-opacity='.28' stroke-width='1.5'%3E%3Cpath d='M28 2l26 15v30L28 62 2 47V17z'/%3E%3Cpath d='M28 62v33M2 47l-2 1M54 47l2 1'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 56px 97px;
+    padding: max(32px, env(safe-area-inset-top)) 20px max(40px, env(safe-area-inset-bottom));
+  }
+  main { max-width: 520px; margin: 0 auto; }
+  header { padding: 28px 0 8px; }
+  h1 {
+    margin: 0;
+    font-size: clamp(3rem, 14vw, 4.75rem);
+    line-height: .92;
+    font-weight: 800;
+    letter-spacing: -.035em;
+  }
+  .tag {
+    margin: 18px 0 0;
+    font-size: 1.05rem;
+    line-height: 1.45;
+    color: var(--muted);
+    max-width: 34ch;
+  }
+  h2 {
+    margin: 34px 0 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  a.link {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 18px;
+    background: var(--card);
+    color: var(--ink);
+    text-decoration: none;
+    border: 1.5px solid var(--line);
+    border-left: 6px solid var(--accent);
+    border-radius: 4px 14px 14px 4px;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  a.link:hover { transform: translateX(4px); border-color: var(--accent); }
+  a.link:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .name { font-weight: 600; font-size: 1.05rem; }
+  .sub { display: block; font-weight: 400; font-size: .88rem; color: var(--muted); margin-top: 2px; }
+  .go { font-size: 1.1rem; color: var(--accent); }
+  .primary { background: var(--ink); color: var(--bg); border-color: var(--ink); border-left-color: var(--accent); }
+  .primary .sub { color: var(--line); }
+  .primary:hover { border-color: var(--accent); }
+  footer { margin-top: 36px; font-size: .85rem; color: var(--muted); }
+  @media (prefers-reduced-motion: reduce) { a.link { transition: none; } a.link:hover { transform: none; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Farooq Anwar</h1>
+    <p class="tag">Computer Science + Financial Technology student at Kennesaw State, focused on AI & computer vision.</p>
+  </header>
+
+  <h2>Start here</h2>
+  <ul>
+    <li><a class="link primary" href="https://kingfarooq.github.io/"><span><span class="name">Portfolio</span><span class="sub">Projects and background</span></span><span class="go" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="https://github.com/KingFarooq"><span><span class="name">GitHub</span><span class="sub">Code and repositories</span></span><span class="go" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="https://www.linkedin.com/in/farooqmohammadanwar/"><span><span class="name">LinkedIn</span><span class="sub">Experience and work history</span></span><span class="go" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="mailto:fmanwar3710@gmail.com"><span><span class="name">Email me</span><span class="sub">fmanwar3710@gmail.com</span></span><span class="go" aria-hidden="true">→</span></a></li>
+  </ul>
+
+  <h2>Research</h2>
+  <ul>
+    <li><a class="link" href="https://scholar.google.com/citations?user=MMpWo_sAAAAJ&amp;hl=en"><span><span class="name">Google Scholar</span><span class="sub">Publications and citations</span></span><span class="go" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Anwar%2C%20Farooq%20M.%22&amp;l=list&amp;p=1&amp;s=10&amp;sort=bestmatch"><span><span class="name">Zenodo</span><span class="sub">Preprints and datasets</span></span><span class="go" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="https://orcid.org/0009-0008-3335-8726"><span><span class="name">ORCID</span><span class="sub">0009-0008-3335-8726</span></span><span class="go" aria-hidden="true">→</span></a></li>
+  </ul>
+
+  <h2>Social</h2>
+  <ul>
+    <li><a class="link" href="https://www.instagram.com/fafa.da.tortuga/"><span><span class="name">Instagram</span><span class="sub">@fafa.da.tortuga</span></span><span class="go" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="https://www.tiktok.com/@fafa.da.tortuga"><span><span class="name">TikTok</span><span class="sub">@fafa.da.tortuga</span></span><span class="go" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="https://x.com/_kingfarooq"><span><span class="name">X</span><span class="sub">@_kingfarooq</span></span><span class="go" aria-hidden="true">→</span></a></li>
+  </ul>
+
+  <footer>© 2026 Farooq Anwar</footer>
+</main>
+</body>
+</html>
